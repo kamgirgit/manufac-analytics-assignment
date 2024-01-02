@@ -15,7 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Add package in the project and maintains entry in package.json
 
-### `Screenshots`
+## Screenshots :
+![Analytics Table 1](https://github.com/kamgirgit/manufac-analytics-assignment/blob/master/screenshots/stat-3.png)
+
+![Analytics Table 2](https://github.com/kamgirgit/manufac-analytics-assignment/blob/master/screenshots/stat-4.png)
+
+![Analytics Table](https://github.com/kamgirgit/manufac-analytics-assignment/blob/master/screenshots/stat-2.png)
 
 ## Learn More
 
