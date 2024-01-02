@@ -15,10 +15,6 @@ const Report = () => {
     setModeData(classWiseMode(wineData));
   }, []);
 
-  console.log(meanData);
-  console.log(medianData);
-  console.log(modeData);
-
   return (
     <div className='report-container'>
       <div>

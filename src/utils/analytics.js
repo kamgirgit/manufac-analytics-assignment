@@ -1,3 +1,7 @@
+/* 
+Functions to generate classwise mean, median and  mode.
+*/
+
 export const classWiseMean = (wineData) => {
   const classes = Object.groupBy(wineData, (d) => d.Alcohol);
   let res = {};
@@ -31,6 +35,9 @@ export const classWiseMode = (wineData) => {
   return res;
 };
 
+/* 
+Function to generate Gamma property on entire dataset of wineData and return the modified dataset
+*/
 const getGammaDataSet = (wineData) => {
   const modifiedData = wineData.map((elem) => {
     let gamma = (elem.Ash * elem.Hue) / elem.Magnesium;
@@ -84,7 +91,7 @@ export const gammaMode = (wineData) => {
 
 const mean = (arr) => {
   let total = arr.reduce((current, acc) => current + acc, 0);
-  return (total / arr.length).toFixed(3);
+  return (total / arr.length).toFixed(3); // toFixed function is used to roundoff values
 };
 
 const median = (arr) => {
