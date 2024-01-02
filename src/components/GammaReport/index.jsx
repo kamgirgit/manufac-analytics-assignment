@@ -33,19 +33,19 @@ const GammaReport = () => {
 
         <tbody>
           <tr>
-            <th>Flavanoids Mean</th>
+            <th>Gamma Mean</th>
             {Object.keys(meanData).map((key, i) => (
               <td key={i}> {meanData[key]}</td>
             ))}
           </tr>
           <tr>
-            <th>Flavanoids Median</th>
+            <th>Gamma Median</th>
             {Object.keys(medianData).map((key, i) => (
               <td key={i}> {medianData[key]}</td>
             ))}
           </tr>
           <tr>
-            <th>Flavanoids Mode</th>
+            <th>Gamma Mode</th>
             {Object.keys(modeData).map((key, i) => (
               <td key={i}> {modeData[key]}</td>
             ))}
